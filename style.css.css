@@ -1,0 +1,176 @@
+/* .lights div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid black;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.circle1 {
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle5 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle6 {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle7 {
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circle8 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    
+}
+
+.light {
+    background-color: white;
+    color: black;
+   
+}
+
+button {
+    margin-top: 10px;
+}
+
+#content {
+    display: flex;
+
+
+
+
+} */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    transition: background-color 0.4s ease;
+}
+
+/* left vertical panel */
+.lights {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/* common circle style */
+.lights div {
+    width: 100px;
+    height: 100px;
+    border-radius: 2rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* circle colors */
+.circle1 { background-color: red; }
+.circle2 { background-color: blue; }
+.circle3 { background-color: green; }
+.circle4 { background-color: purple; }
+.circle5 { background-color: orange; }
+.circle6 { background-color: black; color: white; }
+.circle7 { background-color: brown; color: white; }
+.circle8 { background-color: lightgray; }
